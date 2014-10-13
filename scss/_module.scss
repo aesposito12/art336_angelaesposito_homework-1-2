@@ -7,8 +7,16 @@ Module Rules
 @mixin fontSize($size) {
     font-size: $size;
     font-size: calculateRem($size);
-}@mixin headline-font {
-    font-family: "cubano",helvetica,ariel, sans-serif;
+}
+@mixin headline-font {
+font-family: "cubano",helvetica,ariel, sans-serif;
 font-style: normal;
 font-weight: 400;
 }
+
+<h1>
+{
+border-style:solid;
+border-color:#287EC7;
+} 
+</h1>
